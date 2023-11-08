@@ -31,10 +31,6 @@ Example: `docker pull postgres:16-alpine`
 
 - View container logs: `docker logs <container_name_or_id>`
 
-### references
-
-- [how to use the postgres docker official image](https://www.docker.com/blog/how-to-use-the-postgres-docker-official-image/)
-
 ## postgres
 
 - Download image through docker: `docker pull postgres`, to download the latest version of postgres image.
@@ -42,3 +38,12 @@ Example: `docker pull postgres:16-alpine`
 - Start a postgres instance: `docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres`
 
 - Create a db: `docker exec -it <container-name> createdb --username=root --owner=root <db-name>`
+
+### resources
+
+- [tool for drawing db diagrams](https://dbdiagram.io)
+- [golang migrate](https://github.com/golang-migrate/migrate/tree/master)
+
+### references
+
+- [how to use the postgres docker official image](https://www.docker.com/blog/how-to-use-the-postgres-docker-official-image/)
